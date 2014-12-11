@@ -41,5 +41,16 @@ To use the library inside of our code we need to include it
 #include <Adafruit_NeoPixel.h>
 ```
 
+For this project we will be using pin 6 to connect our neopixel DIN(IN) to the Arduino
+```Arduino
+#define PIN 6
+```
+
+Next we need to instruct our Arduino that we are using a neopixel, and in this example we are using one with 12 RGB LED.
+```Arduino
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(12, PIN, NEO_GRB + NEO_KHZ800);
+```
+
+
 
 
