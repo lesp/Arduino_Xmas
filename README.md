@@ -35,4 +35,11 @@ Install the Arduino neopixel library provided by Adafruit.
 
 With the library installed we start work on the code.
 
+To use the library inside of our code we need to include it
+
+```Arduino
+#include <Adafruit_NeoPixel.h>
+```
+
+
 
