@@ -97,7 +97,7 @@ Our final for loop changes the R G B value to blue (0,0,255).
 
 Upload this code to yor Arduino, and you should see something like this.
 
-[![IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=JX9NkHFaKj8/0.jpg)](https://www.youtube.com/watch?v=JX9NkHFaKj8)
+[![Click the image to watch the video](https://farm8.staticflickr.com/7527/15369486073_bfddbc0eaf_z_d.jpg)](https://www.youtube.com/watch?v=JX9NkHFaKj8)
 
 
 
