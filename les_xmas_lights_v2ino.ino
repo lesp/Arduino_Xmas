@@ -25,12 +25,20 @@ void loop() {
   for (int led = 0; led < 12; led++) {
       strip.setPixelColor(led,255,0,0);
       strip.show();
-      delay(100);
+      delay(10);
    }
-  for (int led = 11; led > 0; led--) {
+  for (int led = 0; led < 12; led++) {
       strip.setPixelColor(led,0,255,0);
       strip.show();
+      delay(10);
   }
+  for (int led = 0; led < 12; led++) {
+      strip.setPixelColor(led,0,0,255);
+      strip.show();
+      delay(10);
+  }    
 }
+  
+    
   
     
